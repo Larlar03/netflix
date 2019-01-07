@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="en">
 
 <head>
   <meta charset="utf-8">
@@ -8,9 +8,6 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
@@ -20,30 +17,20 @@
 
 
 <body>
+  <section class="wrapper">
+    <h1>What Should I Watch on Netflix?</h1>
 
-<main id="container">
-  <div class="item item1">
-    <h1>What Should I Watch on Netflix?
-    </h1>
-  </div>
-  <div class="item item2">
-   <h2>
-     <script>
-     document.write(`You should watch ${netflix}.`);
-   </script>
- </h2>
- </div>
-</main>
+    <div class="btn-container">
+      <button type="button" onclick="location.href='index.html'">Pick</button>
+    </div>
 
+    <h2>
+      <script>
+        document.write(`You should watch ${netflix}.`);
+      </script>
+    </h2>
 
-
-
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+  </section>
 </body>
 
 </html>

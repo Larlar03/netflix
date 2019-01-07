@@ -1,31 +1,28 @@
-const myQuestion = 'What should I watch on Netflix?';
+// Random num between 0 and 7
+const randomNum = Math.floor(Math.random( ) * 7);
 
-console.log(myQuestion);
-
-const randomNum = Math.floor(Math.random( ) * 7); // random number betqeen 0-7
-
-let netflix = ' ' // value is undefined
+let netflix = '' // value is undefined
 
 switch (randomNum) { // if random number is...
   case 0:
-        netflix = ('Layer Cake');
+        netflix = ('White Gold');
         break;
     case 1:
-        netflix = ('Seven Psychopaths');
+        netflix = ('Inside No.9');
         break;
     case 2:
-        netflix = ('The Grand Budapest Hotel');
+        netflix = ('Louis Theroux');
         break;
     case 3:
-        netflix = ('Flaked');
+        netflix = ('Black Mirror');
         break;
     case 4:
-        netflix = ('Rake');
+        netflix = ('On My Skin');
         break;
     case 5:
         netflix = ('Hannibal');
         break;
     case 6:
-        netflix = ('Rick and Morty');
+        netflix = ('Bojack Horseman');
         break;
 }
