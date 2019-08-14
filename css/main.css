@@ -69,19 +69,7 @@ button:hover {
   cursor: pointer;
 }
 
-#back {
+button#back {
   width: 100px;
-  min-height: 50px;
-  display: block;
-  color: #fff;
-  background: #99c1b9;
-  border: 1px solid #fff;
-  border-radius: 5%;
-  font-family: 'Helvetica', sans-serif;
-  font-weight: bold;
-  text-decoration: none;
-  padding: 10px;
-  vertical-align: middle;
-  text-align: center;
-  cursor: pointer;
+  min-height: 25px;
 }
