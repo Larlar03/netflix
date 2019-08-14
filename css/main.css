@@ -49,12 +49,12 @@ h1 {
 }
 
 button {
-  width: 100px;
+  width: 300px;
   height: auto;
   display: block;
   color: #fff;
-  background: #e50914;
-  border: 1px solid #fff;
+  background: #99c1b9;
+  border: 0.5px solid #fff;
   border-radius: 5%;
   font-family: 'Helvetica', sans-serif;
   font-weight: bold;
@@ -66,6 +66,6 @@ button {
 }
 
 button:hover {
-  background: #221f1f;
+  background: #F2D0A9;
   cursor: pointer;
 }
