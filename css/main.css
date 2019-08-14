@@ -34,7 +34,7 @@ h1 {
   font-size: 1.5rem;
   width: 100%;
   text-align: center;
-  color: #212121;
+  color: #fff;
   margin: 70px 20px;
 }
 
@@ -66,5 +66,22 @@ button {
 
 button:hover {
   background: #F2D0A9;
+  cursor: pointer;
+}
+
+#back {
+  width: 100px;
+  min-height: 50px;
+  display: block;
+  color: #fff;
+  background: #99c1b9;
+  border: 1px solid #fff;
+  border-radius: 5%;
+  font-family: 'Helvetica', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px;
+  vertical-align: middle;
+  text-align: center;
   cursor: pointer;
 }
