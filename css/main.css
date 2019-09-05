@@ -48,8 +48,8 @@ h1 {
 }
 
 button {
-  width: 300px;
-  min-height: 50px;
+  width: 100px;
+  min-height: 25px;
   display: block;
   color: #fff;
   background: #99c1b9;
